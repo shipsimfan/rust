@@ -70,6 +70,7 @@ mod linux_gnu_base;
 mod linux_kernel_base;
 mod linux_musl_base;
 mod linux_uclibc_base;
+mod los_base;
 mod msvc_base;
 mod netbsd_base;
 mod openbsd_base;
@@ -797,6 +798,8 @@ supported_targets! {
     ("aarch64-linux-android", aarch64_linux_android),
 
     ("x86_64-unknown-none-linuxkernel", x86_64_unknown_none_linuxkernel),
+
+    ("x86_64-los", x86_64_los),
 
     ("aarch64-unknown-freebsd", aarch64_unknown_freebsd),
     ("armv6-unknown-freebsd", armv6_unknown_freebsd),
